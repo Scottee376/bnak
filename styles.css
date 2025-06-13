@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.main-nav {
+  background: #eee;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background: #005eb8;
+  color: white;
+}
+
+.promo {
+  max-width: 50%;
+}
+
+.promo span {
+  font-size: 50px;
+  color: #fff;
+}
+
+.promo button {
+  background: #48a400;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.login-box {
+  background: white;
+  padding: 20px;
+  color: black;
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+.login-box input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+.login-box button {
+  background: #005eff;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  background: white;
+}
+
+.card {
+  background: #e6f0ff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.card.gray {
+  background: #f2f2f2;
+}
+
+.card button {
+  background: #005eff;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.bonus {
+  padding: 30px;
+  background: #fff9f0;
+  text-align: center;
+}
+
+.bonus span {
+  font-size: 40px;
+  color: #a36a00;
+}
+
+.bonus button {
+  background: #388e00;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
